@@ -39,14 +39,14 @@ The attack bypassed GitHub Actions CI/CD and SLSA provenance attestations entire
 
 ```bash
 # Download and run
-curl -O https://raw.githubusercontent.com/YOUR_ORG/axios-compromise-checker/main/main.py
+curl -O https://raw.githubusercontent.com/harekrishnarai/axios-checker-py/main/main.py
 python3 main.py
 ```
 
 Or clone the repo:
 
 ```bash
-git clone https://github.com/YOUR_ORG/axios-compromise-checker.git
+git clone https://github.com/harekrishnarai/axios-checker-py.git
 cd axios-compromise-checker
 python3 main.py
 ```
