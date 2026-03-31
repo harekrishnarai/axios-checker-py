@@ -7,7 +7,7 @@ Date: March 31, 2026
 Checks for indicators of compromise from the axios@1.14.1 / 0.30.4
 supply chain attack on the current machine.
 
-Run with: python3 axios_triage.py
+Run with: python3 main.py
 No dependencies beyond Python 3 stdlib.
 """
 
@@ -362,6 +362,7 @@ def summary():
         print(f"    npm install axios@1.14.0")
     print(f"\n  Advisory: SCSA-2026-0331-AXS")
     print(f"  Reference: https://safedep.io/axios-npm-supply-chain-compromise/")
+    print(f"Reference: http://stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan")
     print()
 
 # ── Entry point ───────────────────────────────────────────────────────────────
