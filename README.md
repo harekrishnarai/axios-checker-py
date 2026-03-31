@@ -39,8 +39,8 @@ The attack bypassed GitHub Actions CI/CD and SLSA provenance attestations entire
 
 ```bash
 # Download and run
-curl -O https://raw.githubusercontent.com/YOUR_ORG/axios-compromise-checker/main/axios_triage.py
-python3 axios_triage.py
+curl -O https://raw.githubusercontent.com/YOUR_ORG/axios-compromise-checker/main/main.py
+python3 main.py
 ```
 
 Or clone the repo:
@@ -48,7 +48,7 @@ Or clone the repo:
 ```bash
 git clone https://github.com/YOUR_ORG/axios-compromise-checker.git
 cd axios-compromise-checker
-python3 axios_triage.py
+python3 main.py
 ```
 
 The script requires no elevated privileges. It does not make any network requests itself — all checks are local only.
